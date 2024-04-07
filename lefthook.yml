@@ -1,0 +1,6 @@
+pre-commit:
+  parallel: true
+  commands:
+    check:
+      glob: "*.{ts, js}"
+      run: npx biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files} && git update-index --again

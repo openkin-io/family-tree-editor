@@ -1,0 +1,21 @@
+{
+  "name": "family-tree-editor",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "biome lint",
+    "test": "vitest run --coverage"
+  },
+  "author": "OpenKin.io",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.4",
+    "lefthook": "^1.6.8",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
+    "vitest": "^1.4.0"
+  }
+}
