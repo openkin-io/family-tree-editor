@@ -1,8 +1,7 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.6.4/schema.json",
   "files": {
-    "ignoreUnknown": true,
-    "include": ["src/**/*.{js, ts}"]
+    "ignoreUnknown": true
   },
   "vcs": {
     "enabled": true,
